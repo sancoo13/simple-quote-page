@@ -6,31 +6,32 @@
 }
 
 body {
- 
-}
-
-.container {
-  position: relative;
-   background: url(assets/freedom.jpg) no-repeat center center fixed;
+  background: url(assets/freedom.jpg) no-repeat center center fixed;
+  text-align: center;
 }
 
 .text {
   position: absolute;
-  top: 50%;
+  width: 90%;
+  top: 30%;
   left: 50%;
+  transform: translate(-50%, -50%)
 }
 
-pre {
-  font-size: 2.5rem;
+.big {
+  font-size: 2.5em;
 }
 
-p {
-  font-size: 1.2rem;
+.little {
+  font-size: 1.2em;
+  margin-top: 5%;
 }
 
 .lang {
-  position: relative;
+  width: 90%;
+  position: absolute;
   bottom: 0%;
+  left:5%;
 }
 
 li {
@@ -40,6 +41,8 @@ li {
 img {
   width: 100px;
   height: auto;
+  margin: 1% 3%;
+  opacity: .3;
 }
 
 
